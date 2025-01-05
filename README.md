@@ -1,8 +1,8 @@
-# Column-Family Stores: Hadoop (HDFS and MapReduce) and HBase
+# Document Stores: MongoDB
 
-Course files (instructional materials) for the **MIT8107: Advanced Database Systems** and the **BBT4206: Business Intelligence II** courses.
+Course files (instructional materials) for various database systems related courses.
 
-**Concept:** Distributed Database Management Systems - Setting up Hadoop in a fully distributed mode and using Hadoop Distributed File System (HDFS) and MapReduce (in Java and Python).
+Concepts: Distributed Database Management Systems and Non-Relational Data Models - Setting up MongoDB, working with a non-relation document store database, MapReduce using Javascript in MongoDB, and MongoDB Replica Sets.
 
 | **Key**                                                               | Value                                                                                                                                                                              |
 |---------------|---------------------------------------------------------|
@@ -11,41 +11,39 @@ Course files (instructional materials) for the **MIT8107: Advanced Database Syst
 | **Semester Duration**                                                 | 6<sup>th</sup> January 2025 to 12<sup>th</sup> April 2025                                                                                                                       |
 | **Lecturer**                                                          | Allan Omondi                                                                                                                                                                       |
 | **Contact**                                                           | aomondi_at_strathmore_dot_edu                                                                                                                                                      |
-| **Recommended Citation** | Omondi, A. O. (2024). _MIT8107-Lab-4-Column-Family-Stores_ (Version 1.0) [Source Code]. [https://github.com/course-files/MIT8107-Lab4-Column-Family-Stores](https://github.com/course-files/MIT8107-Lab4-Column-Family-Stores)  |
+| **Recommended Citation** | Omondi, A. O. (2025). _MIT8107-Lab-5-Document-Stores_ (Version 1.0) [Source Code]. [https://github.com/course-files/Lab5-Document-Stores](https://github.com/course-files/Lab5-Document-Stores)  |
 
 Bibtex:
 
 ```bibtex
-
-@misc{omondi_mit8107-lab4-column-family-stores_2024,
+@misc{omondi_mit8107-lab5-document-stores_2025,
     address = {Nairobi, Kenya},
-    title = {{MIT8107}-{Lab4}-{Column}-{Family}-{Stores}},
+    title = {{MIT8107}-{Lab5}-{Document}-{Stores}},
     copyright = {GPL-3.0},
     shorttitle = {Hadoop},
-    url = {https://github.com/course-files/MIT8107-Lab4-Column-Family-Stores},
-    abstract = {Course files (instructional materials) for the MIT8107: Advanced Database Systems and the BBT4206: Business Intelligence II courses. Concept: Distributed Database Management Systems - Setting up Hadoop in a fully distributed mode and using Hadoop Distributed File System (HDFS) and MapReduce (in Java and Python).},
-    urldate = {2024-12-28},
+    url = {https://github.com/course-files/Lab5-Document-Stores},
+    abstract = {Course files (instructional materials) for various database systems related courses. Concepts: Distributed Database Management Systems and Non-Relational Data Models - Setting up MongoDB, working with a non-relation document store database, MapReduce using Javascript in MongoDB, and MongoDB Replica Sets.},
+    urldate = {2025-01-05},
     author = {Omondi, Allan Odhiambo},
-    month = dec,
-    year = {2024},
-    note = {original-date: 2024-12-28T16:30:00+03:00},
-    keywords = {Column-Family Stores, Hadoop, HBase, HDFS, MapReduce},
+    month = jan,
+    year = {2025},
+    note = {original-date: 2025-01-05T06:00:00+03:00},
+    keywords = {Document-Stores, Javascript, MapReduce, MongoDB, MongoDB Replica Sets},
 }
 ```
 
 ## Lab Manual and Instruction Files
 
-Please refer to the "Lab Manual on Column-Family Stores" for more details.
+Please refer to the "Lab Manual on Document Stores" for more details.
 
 Instruction files:
 
-1. [Hadoop Setup in a Fully Distributed Mode](instructions/1-hadoop-hdfs-mapreduce/1-setup-hadoop.md)
-2. [HDFS and MapReduce using Java and Python](instructions/1-hadoop-hdfs-mapreduce/2-hdfs-mapreduce.md)
-3. [HBase Setup in a Standalone Mode](instructions/2-hbase/hbase-standalone.md)
+1. [Using MongoDB (including Referencing, Indexing, and MapReduce in MongoDB)](instructions/1-using-mongodb.md)
+2. [MongoDB Replica Set Setup](instructions/2-setup-mongodb-cluster.md)
 
 ## Lecture Notes
 
-Please refer to the "Lecture Notes on Distributed Databases" for more details.
+Please refer to the "Lecture Notes on Non-Relational Data Models" for more details.
 
 ## Technology Stack
 

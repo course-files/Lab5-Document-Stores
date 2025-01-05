@@ -1,0 +1,13 @@
+services:
+  mongodb:
+    image: mongo:7.0
+    # image: mongodb/mongodb-community-server:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: student
+      MONGO_INITDB_ROOT_PASSWORD: 5trathm0re
+    ports:
+      - 27017:27017
+    volumes:
+      - ./container-volumes/mongodb/data-db:/data/db
