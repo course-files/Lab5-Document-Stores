@@ -20,7 +20,7 @@ Bibtex:
     address = {Nairobi, Kenya},
     title = {{MIT8107}-{Lab5}-{Document}-{Stores}},
     copyright = {GPL-3.0},
-    shorttitle = {Hadoop},
+    shorttitle = {Document-{Stores}},
     url = {https://github.com/course-files/Lab5-Document-Stores},
     abstract = {Course files (instructional materials) for various database systems related courses. Concepts: Distributed Database Management Systems and Non-Relational Data Models - Setting up MongoDB, working with a non-relation document store database, MapReduce using Javascript in MongoDB, and MongoDB Replica Sets.},
     urldate = {2025-01-05},
